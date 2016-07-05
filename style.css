@@ -1,0 +1,17 @@
+* {
+    background-color: black;
+    color:white;
+}
+
+div {
+
+}
+
+div div p {
+    color: white;
+    text-align:left;
+}
+
+div p {
+    text-align: center;
+}
