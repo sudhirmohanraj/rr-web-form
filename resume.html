@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" type="text/css" href="style.css" title="style">
+<script src="scripts.js"></script>
 <head lang="en">
     <meta charset="UTF-8">
     <title>Resume Sudhir</title>
@@ -10,24 +11,36 @@
     <p>Sudhir Mohanraj</p>
     <p>10 presidential drive apt C, Greenville, De-19807</p>
     <p>sudhirmohan87@gmail.com</p>
-    <div>
+    <ul class="tab">
+        <li><a href="#" class="tablinks" onclick="openNavigation(event, 'Objective')">Objective</a></li>
+        <li><a href="#" class="tablinks" onclick="openNavigation(event, 'Skills')">Skills</a></li>
+        <li><a href="#" class="tablinks" onclick="openNavigation(event, 'Experience')">Experience</a></li>
+        <li><a href="#" class="tablinks" onclick="openNavigation(event, 'Education')">Education</a></li>
+    </ul>
+    <div id="Objective" class="tabcontent">
         <h3>Objective</h3>
-            Seeking Full Time Position as Senior Software Engineer in Computer Software, Networking with a focus on Software development, and management.
+        <p>Seeking Full Time Position as Senior Software Engineer in Computer Software, Networking with a focus on Software development, and management.</p>
+    </div>
+
+    <div id="Skills" class="tabcontent">
+        <h3>Skills</h3>
+        <p>Java, Scala, HTML5, CSS</p>
+    </div>
+
+    <div id="Experience" class="tabcontent">
         <h3>Experience</h3>
         <ul>
-            <li>Senior Software Engineer at Capital One</li>
-            <li>Software Engineer at Cerner Corporation</li>
-            <li>Software Engineer at K&M Systems</li>
-            <li>Network Engineer at Smith Electronics</li>
+        <li>Senior Software Engineer at Capital One</li>
+        <li>Software Engineer at Cerner Corporation</li>
+        <li>Software Engineer at K&M Systems</li>
+        <li>Network Engineer at Smith Electronics</li>
         </ul>
-        <h3>Skills</h3>
+    </div>
+
+    <div id="Education" class="tabcontent">
         <ul>
-            <li>Programming Languages: Java, Scala, HTML5, CSS</li>
-        </ul>
-        <h3>Education</h3>
-        <ul>
-            <li>Bachelor of Engineering in Electronics and Communication(2005-2009) from DSCE in Bangalore, KAR, INDIA</li>
-            <li>Master of Science in Computer Science(2009-2012) from UMKC in Kansas City, MO, USA</li>
+        <li>Bachelor of Engineering in Electronics and Communication(2005-2009) from DSCE in Bangalore, KAR, INDIA</li>
+        <li>Master of Science in Computer Science(2009-2012) from UMKC in Kansas City, MO, USA</li>
         </ul>
     </div>
 </div>
